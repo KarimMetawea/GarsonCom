@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24CCE7331963CBA185439680 /* Pods_GarsonCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF5B1323B2CD0942BB81A4A /* Pods_GarsonCom.framework */; };
 		D9F2961D22ECA65F0067F4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */; };
-		D9F2961F22ECA65F0067F4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2961E22ECA65F0067F4CA /* ViewController.swift */; };
-		D9F2962222ECA65F0067F4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F2962022ECA65F0067F4CA /* Main.storyboard */; };
-		D9F2962422ECA6610067F4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F2962322ECA6610067F4CA /* Assets.xcassets */; };
 		D9F2962722ECA6610067F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F2962522ECA6610067F4CA /* LaunchScreen.storyboard */; };
+		D9F2963722ED009E0067F4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F2963622ED009E0067F4CA /* Assets.xcassets */; };
+		D9F2963A22ED01A70067F4CA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2963922ED01A70067F4CA /* SignUpVC.swift */; };
+		D9F2963D22ED01D40067F4CA /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F2963C22ED01D40067F4CA /* SignUpVC.storyboard */; };
+		D9F2964022ED04A00067F4CA /* LogInVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F2963F22ED04A00067F4CA /* LogInVC.storyboard */; };
+		D9F2964222ED04BB0067F4CA /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2964122ED04BB0067F4CA /* LogInVC.swift */; };
+		D9F2964522ED06210067F4CA /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F2964422ED06210067F4CA /* Theme.xcassets */; };
+		D9F2964722ED0AA90067F4CA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2964622ED0AA90067F4CA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6D67C5605BF652A7B8E024C /* Pods-GarsonCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarsonCom.debug.xcconfig"; path = "Target Support Files/Pods-GarsonCom/Pods-GarsonCom.debug.xcconfig"; sourceTree = "<group>"; };
 		D9F2961922ECA65F0067F4CA /* GarsonCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarsonCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9F2961E22ECA65F0067F4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9F2962122ECA65F0067F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9F2962322ECA6610067F4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F2962622ECA6610067F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F2962822ECA6610067F4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F2963622ED009E0067F4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F2963922ED01A70067F4CA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		D9F2963C22ED01D40067F4CA /* SignUpVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpVC.storyboard; sourceTree = "<group>"; };
+		D9F2963F22ED04A00067F4CA /* LogInVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInVC.storyboard; sourceTree = "<group>"; };
+		D9F2964122ED04BB0067F4CA /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		D9F2964422ED06210067F4CA /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		D9F2964622ED0AA90067F4CA /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F81479674FD9A4AFACBF3CC8 /* Pods-GarsonCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarsonCom.release.xcconfig"; path = "Target Support Files/Pods-GarsonCom/Pods-GarsonCom.release.xcconfig"; sourceTree = "<group>"; };
+		FBF5B1323B2CD0942BB81A4A /* Pods_GarsonCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GarsonCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CCE7331963CBA185439680 /* Pods_GarsonCom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6511A3BB52C285435AB59291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5B1323B2CD0942BB81A4A /* Pods_GarsonCom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC8563616EDC631E17A6320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6D67C5605BF652A7B8E024C /* Pods-GarsonCom.debug.xcconfig */,
+				F81479674FD9A4AFACBF3CC8 /* Pods-GarsonCom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D9F2961022ECA65F0067F4CA = {
 			isa = PBXGroup;
 			children = (
 				D9F2961B22ECA65F0067F4CA /* GarsonCom */,
 				D9F2961A22ECA65F0067F4CA /* Products */,
+				7FC8563616EDC631E17A6320 /* Pods */,
+				6511A3BB52C285435AB59291 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,106 @@
 		D9F2961B22ECA65F0067F4CA /* GarsonCom */ = {
 			isa = PBXGroup;
 			children = (
-				D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */,
-				D9F2961E22ECA65F0067F4CA /* ViewController.swift */,
-				D9F2962022ECA65F0067F4CA /* Main.storyboard */,
-				D9F2962322ECA6610067F4CA /* Assets.xcassets */,
-				D9F2962522ECA6610067F4CA /* LaunchScreen.storyboard */,
-				D9F2962822ECA6610067F4CA /* Info.plist */,
+				D9F2963522ECFE390067F4CA /* Networking */,
+				D9F2963422ECFE320067F4CA /* Model */,
+				D9F2963322ECFE1F0067F4CA /* Resources */,
+				D9F2963222ECFDCD0067F4CA /* Extensions */,
+				D9F2963122ECFDC60067F4CA /* Enums */,
+				D9F2963022ECFD9D0067F4CA /* Core */,
+				D9F2962F22ECFD8D0067F4CA /* Configuration */,
+				D9F2962E22ECFD7B0067F4CA /* Scenes */,
 			);
 			path = GarsonCom;
+			sourceTree = "<group>";
+		};
+		D9F2962E22ECFD7B0067F4CA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2963E22ED047F0067F4CA /* LogIn */,
+				D9F2963822ED01860067F4CA /* SignUp */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D9F2962F22ECFD8D0067F4CA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2962822ECA6610067F4CA /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D9F2963022ECFD9D0067F4CA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D9F2963122ECFDC60067F4CA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D9F2963222ECFDCD0067F4CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9F2963322ECFE1F0067F4CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2963622ED009E0067F4CA /* Assets.xcassets */,
+				D9F2962522ECA6610067F4CA /* LaunchScreen.storyboard */,
+				D9F2964322ED060B0067F4CA /* Theme */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9F2963422ECFE320067F4CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9F2963522ECFE390067F4CA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D9F2963822ED01860067F4CA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2963922ED01A70067F4CA /* SignUpVC.swift */,
+				D9F2963C22ED01D40067F4CA /* SignUpVC.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		D9F2963E22ED047F0067F4CA /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2963F22ED04A00067F4CA /* LogInVC.storyboard */,
+				D9F2964122ED04BB0067F4CA /* LogInVC.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		D9F2964322ED060B0067F4CA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2964422ED06210067F4CA /* Theme.xcassets */,
+				D9F2964622ED0AA90067F4CA /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9F2962B22ECA6610067F4CA /* Build configuration list for PBXNativeTarget "GarsonCom" */;
 			buildPhases = (
+				87BAED7E3F8F8148357FE6F5 /* [CP] Check Pods Manifest.lock */,
 				D9F2961522ECA65F0067F4CA /* Sources */,
 				D9F2961622ECA65F0067F4CA /* Frameworks */,
 				D9F2961722ECA65F0067F4CA /* Resources */,
+				393C6DE7A5DA5CF4B718B843 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +248,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F2963D22ED01D40067F4CA /* SignUpVC.storyboard in Resources */,
 				D9F2962722ECA6610067F4CA /* LaunchScreen.storyboard in Resources */,
-				D9F2962422ECA6610067F4CA /* Assets.xcassets in Resources */,
-				D9F2962222ECA65F0067F4CA /* Main.storyboard in Resources */,
+				D9F2964522ED06210067F4CA /* Theme.xcassets in Resources */,
+				D9F2963722ED009E0067F4CA /* Assets.xcassets in Resources */,
+				D9F2964022ED04A00067F4CA /* LogInVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		393C6DE7A5DA5CF4B718B843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BAED7E3F8F8148357FE6F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarsonCom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9F2961522ECA65F0067F4CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F2961F22ECA65F0067F4CA /* ViewController.swift in Sources */,
+				D9F2963A22ED01A70067F4CA /* SignUpVC.swift in Sources */,
+				D9F2964722ED0AA90067F4CA /* Theme.swift in Sources */,
 				D9F2961D22ECA65F0067F4CA /* AppDelegate.swift in Sources */,
+				D9F2964222ED04BB0067F4CA /* LogInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9F2962022ECA65F0067F4CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9F2962122ECA65F0067F4CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9F2962522ECA6610067F4CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +444,11 @@
 		};
 		D9F2962C22ECA6610067F4CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D67C5605BF652A7B8E024C /* Pods-GarsonCom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GarsonCom/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GarsonCom/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +462,11 @@
 		};
 		D9F2962D22ECA6610067F4CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81479674FD9A4AFACBF3CC8 /* Pods-GarsonCom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GarsonCom/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GarsonCom/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
