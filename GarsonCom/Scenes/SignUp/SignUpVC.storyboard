@@ -137,6 +137,9 @@
                                         <state key="normal" title="Signup Now">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signUp:" destination="wJ5-rf-R4k" eventType="touchUpInside" id="vzw-3f-iCL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6L-mm-D1Z">
                                         <rect key="frame" x="0.0" y="325" width="374" height="50"/>
@@ -145,6 +148,9 @@
                                         <state key="normal" title="Have account login now!">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="haveAccountPressed:" destination="wJ5-rf-R4k" eventType="touchUpInside" id="Nbh-uy-bhF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -165,6 +171,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wfq-67-sew"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="BYI-bZ-0Sm" id="JkW-kF-Rou"/>
+                        <outlet property="nameTextField" destination="MGE-bJ-JR7" id="oKy-xA-hC6"/>
+                        <outlet property="passwordTextField" destination="1bx-cb-27j" id="zfX-Tm-KLC"/>
+                        <outlet property="phoneTextField" destination="qyl-dO-Utu" id="Gmj-EU-8Za"/>
+                        <outlet property="profileImage" destination="BTa-ex-2yd" id="z07-1a-e3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAp-yw-XBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

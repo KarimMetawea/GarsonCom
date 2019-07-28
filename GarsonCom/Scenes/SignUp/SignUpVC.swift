@@ -10,6 +10,11 @@ import UIKit
 
 class SignUpVC: UIViewController {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var phoneTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +31,11 @@ class SignUpVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func signUp(_ sender: Any) {
+    }
+    
+    @IBAction func haveAccountPressed(_ sender: Any) {
+    }
+    
 }
