@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		24CCE7331963CBA185439680 /* Pods_GarsonCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF5B1323B2CD0942BB81A4A /* Pods_GarsonCom.framework */; };
+		D9A26DB622EE1AFA007885E9 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A26DB522EE1AFA007885E9 /* ApiManager.swift */; };
+		D9A26DB822EE540E007885E9 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A26DB722EE540E007885E9 /* Auth.swift */; };
+		D9A26DBA22EE546A007885E9 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A26DB922EE546A007885E9 /* EndPoints.swift */; };
 		D9F2961D22ECA65F0067F4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */; };
 		D9F2962722ECA6610067F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F2962522ECA6610067F4CA /* LaunchScreen.storyboard */; };
 		D9F2963722ED009E0067F4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F2963622ED009E0067F4CA /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		B6D67C5605BF652A7B8E024C /* Pods-GarsonCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarsonCom.debug.xcconfig"; path = "Target Support Files/Pods-GarsonCom/Pods-GarsonCom.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A26DB522EE1AFA007885E9 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D9A26DB722EE540E007885E9 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		D9A26DB922EE546A007885E9 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		D9F2961922ECA65F0067F4CA /* GarsonCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarsonCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F2961C22ECA65F0067F4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F2962622ECA6610067F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		D9F2963122ECFDC60067F4CA /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				D9A26DB922EE546A007885E9 /* EndPoints.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -157,6 +164,8 @@
 		D9F2963522ECFE390067F4CA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				D9A26DB522EE1AFA007885E9 /* ApiManager.swift */,
+				D9A26DB722EE540E007885E9 /* Auth.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -307,8 +316,11 @@
 			files = (
 				D9F2963A22ED01A70067F4CA /* SignUpVC.swift in Sources */,
 				D9F2964722ED0AA90067F4CA /* Theme.swift in Sources */,
+				D9A26DB622EE1AFA007885E9 /* ApiManager.swift in Sources */,
+				D9A26DBA22EE546A007885E9 /* EndPoints.swift in Sources */,
 				D9F2961D22ECA65F0067F4CA /* AppDelegate.swift in Sources */,
 				D9F2964222ED04BB0067F4CA /* LogInVC.swift in Sources */,
+				D9A26DB822EE540E007885E9 /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
