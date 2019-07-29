@@ -209,6 +209,7 @@
 				D9F2961622ECA65F0067F4CA /* Frameworks */,
 				D9F2961722ECA65F0067F4CA /* Resources */,
 				393C6DE7A5DA5CF4B718B843 /* [CP] Embed Pods Frameworks */,
+				6319FA26177937CF9263FD78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +284,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6319FA26177937CF9263FD78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GarsonCom/Pods-GarsonCom-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		87BAED7E3F8F8148357FE6F5 /* [CP] Check Pods Manifest.lock */ = {

@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import GoogleSignIn
+import FacebookCore
+import FacebookLogin
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class LogInVC: UIViewController {
 
@@ -14,14 +19,30 @@ class LogInVC: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        phoneNumberTextField.delegate = self
+        passwordTextField.delegate = self
+        GIDSignIn.sharedInstance().uiDelegate = self
 
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func loginWithGoogle(_ sender: Any) {
+         GIDSignIn.sharedInstance().signIn()
     }
     @IBAction func loginWithFacebook(_ sender: Any) {
+        let loginManager = LoginManager()
+        loginManager.logIn(permissions: [.publicProfile,.email,], viewController: self) { (result) in
+            switch result {
+            case .failed(let error):
+                print(error)
+            case .cancelled:
+                print("User cancelled login.")
+            case .success(let grantedPermissions, let declinedPermissions, let accessToken):
+                print("Logged in!")
+            }
+        }
+        
     }
     @IBAction func loginNowPressed(_ sender: Any) {
     }
@@ -55,4 +76,8 @@ extension LogInVC:UITextFieldDelegate{
     }
 
 
+}
+
+extension LogInVC:GIDSignInUIDelegate{
+    
 }

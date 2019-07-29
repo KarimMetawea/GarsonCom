@@ -5,6 +5,10 @@ target 'GarsonCom' do
 use_frameworks!
 pod 'IQKeyboardManagerSwift', '6.0.4'
 pod 'Alamofire'
+pod 'GoogleSignIn'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
 
 
 end
